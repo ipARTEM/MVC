@@ -44,18 +44,32 @@ namespace MVC02List
             new Thread(() =>
             {
                 int i = wrapper.list.Count+1;
+                int fb = Fiban(i);
 
-                 tbText.Dispatcher.BeginInvoke(
-                async () =>
+                string li = $"Число №{i} = {fb}" + Environment.NewLine;
+                wrapper.list.Add(li);
+
+                tbText.Dispatcher.BeginInvoke(
+                () =>
                 {
-                    int fb = Fiban(i);
-
-                    string li = $"Число №{i} = {fb}" + Environment.NewLine;
-                    wrapper.list.Add(li);
 
                     tbText.Text += wrapper.list[i-1];
                 });
+
+                bAdd.Dispatcher.BeginInvoke(
+                    () =>
+                    {
+                        bAdd.IsEnabled = true;
+                    });
+                bDelete.Dispatcher.BeginInvoke(
+                   () =>
+                   {
+                       bDelete.IsEnabled = true;
+                   });
+
             }).Start();
+            bAdd.IsEnabled =false;
+            bDelete.IsEnabled =false;
         }
 
         private void bDelete_Click(object sender, RoutedEventArgs e)

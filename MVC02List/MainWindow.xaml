@@ -14,9 +14,9 @@
 
         <Grid Grid.Column="0" Margin="0 100 0 0 ">
             <StackPanel>
-                
-                
-                <Button Name="bClear" Content="Add" Margin="2"  Height="20" Click="bAdd_Click" />
+
+
+                <Button Name="bAdd" Content="Add" Margin="2"  Height="20" Click="bAdd_Click" />
                 <Button Name="bDelete" Content="Delete" Margin="2"  Height="20" Click="bDelete_Click"  />
             </StackPanel>
             
