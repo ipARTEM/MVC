@@ -76,8 +76,6 @@ namespace MVC02List
         {
             new Thread(() =>
             {
-                
-
                 tbText.Dispatcher.BeginInvoke(
                 () =>
                 {
@@ -92,7 +90,6 @@ namespace MVC02List
                             tbText.Text += wrapper.list[i];
                         }
                     }
-             
                 });
             }).Start();
         }
