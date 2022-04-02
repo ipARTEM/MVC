@@ -14,7 +14,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC02List", "MVC02List\MVC0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC03NewThreadPool", "MVC03NewTheadPool\MVC03NewThreadPool.csproj", "{24A1AF41-9323-45B9-A4AB-3646CBE427F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC04WPFICommand", "MVC04WPFICommand\MVC04WPFICommand.csproj", "{991F3BB4-5509-44B3-9C0D-8F908BB03C4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC04WPFICommand", "MVC04WPFICommand\MVC04WPFICommand.csproj", "{991F3BB4-5509-44B3-9C0D-8F908BB03C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC05Structural", "MVC05Structural\MVC05Structural.csproj", "{7FAC7BC6-AAD6-4FC9-A5C6-294B09774E01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{991F3BB4-5509-44B3-9C0D-8F908BB03C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{991F3BB4-5509-44B3-9C0D-8F908BB03C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{991F3BB4-5509-44B3-9C0D-8F908BB03C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FAC7BC6-AAD6-4FC9-A5C6-294B09774E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FAC7BC6-AAD6-4FC9-A5C6-294B09774E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FAC7BC6-AAD6-4FC9-A5C6-294B09774E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FAC7BC6-AAD6-4FC9-A5C6-294B09774E01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
