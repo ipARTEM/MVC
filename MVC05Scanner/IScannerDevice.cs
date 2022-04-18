@@ -8,7 +8,9 @@ namespace MVC06Scanner
 {
     public interface IScannerDevice
     {
-        Stream Scan();
+        // Stream Scan();
+
+        String Scan();
     }
     public interface IScanOutputStrategy
     {

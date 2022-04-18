@@ -2,11 +2,21 @@
 
 using MVC06Scanner;
 
-IScannerDevice device ;
+PdfScanOutputStrategy pdf = new PdfScanOutputStrategy();
+ImageScanOutputStrategy image = new ImageScanOutputStrategy();
 
-PdfScanOutputStrategy pdfScan=new PdfScanOutputStrategy ();
+Device device = new Device();
 
-pdfScan.ScanAndSave(device,"sd");
+Console.WriteLine(device.Scan());
 
-ScannerContext scanner = new ScannerContext(pdfScan);
+ScannerContext scanner= new ScannerContext(device);
+
+scanner.SetupOutputScanStrategy(pdf);
+scanner.Execute();
+
+scanner.SetupOutputScanStrategy(image);
+scanner.Execute();
+
+
+
 
