@@ -10,7 +10,7 @@ namespace MVC05Structural
     {
         public  int ProductID { get;  }
 
-        public static string ProductName { get; set; }
+        public  string ProductName { get; set; }
 
         public decimal ProductPrice { get; set; }
 
