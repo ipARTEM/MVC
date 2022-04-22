@@ -20,7 +20,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC05Structural", "MVC05Str
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC06Scanner", "MVC05Scanner\MVC06Scanner.csproj", "{D3D42B34-EB3A-4292-9CBE-46EF3A9B0C54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC07Autofac", "MVC07Autofac\MVC07Autofac.csproj", "{4839FCFE-9AB1-43B8-A1BC-A6392E9EB9A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC07Autofac", "MVC07Autofac\MVC07Autofac.csproj", "{4839FCFE-9AB1-43B8-A1BC-A6392E9EB9A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC08Template", "MVC08Template\MVC08Template.csproj", "{D90DB8E1-B8FC-4F19-8EAE-D57D46BF501E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +58,10 @@ Global
 		{4839FCFE-9AB1-43B8-A1BC-A6392E9EB9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4839FCFE-9AB1-43B8-A1BC-A6392E9EB9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4839FCFE-9AB1-43B8-A1BC-A6392E9EB9A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90DB8E1-B8FC-4F19-8EAE-D57D46BF501E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90DB8E1-B8FC-4F19-8EAE-D57D46BF501E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90DB8E1-B8FC-4F19-8EAE-D57D46BF501E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90DB8E1-B8FC-4F19-8EAE-D57D46BF501E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
