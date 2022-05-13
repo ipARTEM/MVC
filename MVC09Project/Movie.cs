@@ -10,7 +10,7 @@ namespace MVC09Project
         [StringLength(100)]
         public string Title { get; set; }
 
-        [ClassicMovie(1960)]
+        //[ClassicMovie(1960)]
         [DataType(DataType.Date)]
         [Display(Name = "Release Date")]
         public DateTime ReleaseDate { get; set; }
@@ -21,7 +21,7 @@ namespace MVC09Project
 
         [Range(0, 999.99)]
         public decimal Price { get; set; }
-        public Genre Genre { get; set; }
+        //public Genre Genre { get; set; }
         public bool Preorder { get; set; }
     }
 }
