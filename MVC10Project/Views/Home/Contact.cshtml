@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+@using(Html.BeginForm("SendMail", "Home"))
+{
+    <div class="row">
+        <div class="col-md-6 col-md-offset-2">
+            <label>Имя отправителя</label>
+            <div class="form-group">
+                <input name="name" type="text" class="form-group"/>
+            </div>
+        </div>
+
+         <div class="col-md-6 col-md-offset-2">
+            <label>Отправить на Email</label>
+            <div class="form-group">
+                <input name="email" type="text" class="form-group"/>
+            </div>
+        </div>
+
+         <div class="col-md-6 col-md-offset-2">
+            <label>Заголовок сообщения</label>
+            <div class="form-group">
+                <input name="header" type="text" class="form-group"></input>
+            </div>
+        </div>
+
+         <div class="col-md-6 col-md-offset-2">
+            <label>Текст сообщения</label>
+            <div class="form-group">
+                <textarea name="msg" type="text" class="form-group"></textarea>
+            </div>
+        </div>
+
+         <div class="col-md-6 col-md-offset-2">
+            
+            <div class="form-group">
+                <button class="btn btn-primary" type="submit">Send Message</button>
+            </div>
+        </div>
+
+    </div>
+}
