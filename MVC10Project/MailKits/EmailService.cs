@@ -22,7 +22,7 @@ namespace MVC10Project.MailKits
             using (var client = new SmtpClient())
             {
                 await client.ConnectAsync("smtp.yandex.ru", 465);        
-                await client.AuthenticateAsync("FROMtest@yandex.ru", "3Gb-SJW-Tdf-293");
+                await client.AuthenticateAsync("FROMtest@yandex.ru", "***********");
                 await client.SendAsync(emailMessage);
 
                 await client.DisconnectAsync(true);
